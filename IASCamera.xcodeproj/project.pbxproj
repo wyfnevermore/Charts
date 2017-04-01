@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF32139C1E8F356D00D7480E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32139B1E8F356D00D7480E /* main.m */; };
+		EF32139F1E8F356D00D7480E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32139E1E8F356D00D7480E /* AppDelegate.m */; };
+		EF3213A21E8F356D00D7480E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213A11E8F356D00D7480E /* ViewController.m */; };
+		EF3213A51E8F356D00D7480E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3213A31E8F356D00D7480E /* Main.storyboard */; };
+		EF3213A81E8F356D00D7480E /* IASCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF3213A61E8F356D00D7480E /* IASCamera.xcdatamodeld */; };
+		EF3213AA1E8F356D00D7480E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3213A91E8F356D00D7480E /* Assets.xcassets */; };
+		EF3213AD1E8F356D00D7480E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3213AB1E8F356D00D7480E /* LaunchScreen.storyboard */; };
+		EF3213B81E8F356D00D7480E /* IASCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213B71E8F356D00D7480E /* IASCameraTests.m */; };
+		EF3213C31E8F356D00D7480E /* IASCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213C21E8F356D00D7480E /* IASCameraUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF3213B41E8F356D00D7480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF32138F1E8F356D00D7480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3213961E8F356D00D7480E;
+			remoteInfo = IASCamera;
+		};
+		EF3213BF1E8F356D00D7480E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF32138F1E8F356D00D7480E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3213961E8F356D00D7480E;
+			remoteInfo = IASCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF3213971E8F356D00D7480E /* IASCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IASCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF32139B1E8F356D00D7480E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF32139D1E8F356D00D7480E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF32139E1E8F356D00D7480E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF3213A01E8F356D00D7480E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF3213A11E8F356D00D7480E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF3213A41E8F356D00D7480E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3213A71E8F356D00D7480E /* IASCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IASCamera.xcdatamodel; sourceTree = "<group>"; };
+		EF3213A91E8F356D00D7480E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF3213AC1E8F356D00D7480E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF3213AE1E8F356D00D7480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3213B31E8F356D00D7480E /* IASCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IASCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3213B71E8F356D00D7480E /* IASCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IASCameraTests.m; sourceTree = "<group>"; };
+		EF3213B91E8F356D00D7480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3213BE1E8F356D00D7480E /* IASCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IASCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3213C21E8F356D00D7480E /* IASCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IASCameraUITests.m; sourceTree = "<group>"; };
+		EF3213C41E8F356E00D7480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3213941E8F356D00D7480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213B01E8F356D00D7480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213BB1E8F356D00D7480E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF32138E1E8F356D00D7480E = {
+			isa = PBXGroup;
+			children = (
+				EF3213991E8F356D00D7480E /* IASCamera */,
+				EF3213B61E8F356D00D7480E /* IASCameraTests */,
+				EF3213C11E8F356D00D7480E /* IASCameraUITests */,
+				EF3213981E8F356D00D7480E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3213981E8F356D00D7480E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3213971E8F356D00D7480E /* IASCamera.app */,
+				EF3213B31E8F356D00D7480E /* IASCameraTests.xctest */,
+				EF3213BE1E8F356D00D7480E /* IASCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3213991E8F356D00D7480E /* IASCamera */ = {
+			isa = PBXGroup;
+			children = (
+				EF32139D1E8F356D00D7480E /* AppDelegate.h */,
+				EF32139E1E8F356D00D7480E /* AppDelegate.m */,
+				EF3213A01E8F356D00D7480E /* ViewController.h */,
+				EF3213A11E8F356D00D7480E /* ViewController.m */,
+				EF3213A31E8F356D00D7480E /* Main.storyboard */,
+				EF3213A91E8F356D00D7480E /* Assets.xcassets */,
+				EF3213AB1E8F356D00D7480E /* LaunchScreen.storyboard */,
+				EF3213AE1E8F356D00D7480E /* Info.plist */,
+				EF3213A61E8F356D00D7480E /* IASCamera.xcdatamodeld */,
+				EF32139A1E8F356D00D7480E /* Supporting Files */,
+			);
+			path = IASCamera;
+			sourceTree = "<group>";
+		};
+		EF32139A1E8F356D00D7480E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF32139B1E8F356D00D7480E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF3213B61E8F356D00D7480E /* IASCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3213B71E8F356D00D7480E /* IASCameraTests.m */,
+				EF3213B91E8F356D00D7480E /* Info.plist */,
+			);
+			path = IASCameraTests;
+			sourceTree = "<group>";
+		};
+		EF3213C11E8F356D00D7480E /* IASCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF3213C21E8F356D00D7480E /* IASCameraUITests.m */,
+				EF3213C41E8F356E00D7480E /* Info.plist */,
+			);
+			path = IASCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3213961E8F356D00D7480E /* IASCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3213C71E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCamera" */;
+			buildPhases = (
+				EF3213931E8F356D00D7480E /* Sources */,
+				EF3213941E8F356D00D7480E /* Frameworks */,
+				EF3213951E8F356D00D7480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IASCamera;
+			productName = IASCamera;
+			productReference = EF3213971E8F356D00D7480E /* IASCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF3213B21E8F356D00D7480E /* IASCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3213CA1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraTests" */;
+			buildPhases = (
+				EF3213AF1E8F356D00D7480E /* Sources */,
+				EF3213B01E8F356D00D7480E /* Frameworks */,
+				EF3213B11E8F356D00D7480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3213B51E8F356D00D7480E /* PBXTargetDependency */,
+			);
+			name = IASCameraTests;
+			productName = IASCameraTests;
+			productReference = EF3213B31E8F356D00D7480E /* IASCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF3213BD1E8F356D00D7480E /* IASCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3213CD1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraUITests" */;
+			buildPhases = (
+				EF3213BA1E8F356D00D7480E /* Sources */,
+				EF3213BB1E8F356D00D7480E /* Frameworks */,
+				EF3213BC1E8F356D00D7480E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF3213C01E8F356D00D7480E /* PBXTargetDependency */,
+			);
+			name = IASCameraUITests;
+			productName = IASCameraUITests;
+			productReference = EF3213BE1E8F356D00D7480E /* IASCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF32138F1E8F356D00D7480E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wyfnevermore;
+				TargetAttributes = {
+					EF3213961E8F356D00D7480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+					};
+					EF3213B21E8F356D00D7480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF3213961E8F356D00D7480E;
+					};
+					EF3213BD1E8F356D00D7480E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AJ68K6K9EW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF3213961E8F356D00D7480E;
+					};
+				};
+			};
+			buildConfigurationList = EF3213921E8F356D00D7480E /* Build configuration list for PBXProject "IASCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF32138E1E8F356D00D7480E;
+			productRefGroup = EF3213981E8F356D00D7480E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3213961E8F356D00D7480E /* IASCamera */,
+				EF3213B21E8F356D00D7480E /* IASCameraTests */,
+				EF3213BD1E8F356D00D7480E /* IASCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3213951E8F356D00D7480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3213AD1E8F356D00D7480E /* LaunchScreen.storyboard in Resources */,
+				EF3213AA1E8F356D00D7480E /* Assets.xcassets in Resources */,
+				EF3213A51E8F356D00D7480E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213B11E8F356D00D7480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213BC1E8F356D00D7480E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3213931E8F356D00D7480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3213A81E8F356D00D7480E /* IASCamera.xcdatamodeld in Sources */,
+				EF3213A21E8F356D00D7480E /* ViewController.m in Sources */,
+				EF32139F1E8F356D00D7480E /* AppDelegate.m in Sources */,
+				EF32139C1E8F356D00D7480E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213AF1E8F356D00D7480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3213B81E8F356D00D7480E /* IASCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3213BA1E8F356D00D7480E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3213C31E8F356D00D7480E /* IASCameraUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF3213B51E8F356D00D7480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3213961E8F356D00D7480E /* IASCamera */;
+			targetProxy = EF3213B41E8F356D00D7480E /* PBXContainerItemProxy */;
+		};
+		EF3213C01E8F356D00D7480E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF3213961E8F356D00D7480E /* IASCamera */;
+			targetProxy = EF3213BF1E8F356D00D7480E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF3213A31E8F356D00D7480E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3213A41E8F356D00D7480E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF3213AB1E8F356D00D7480E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3213AC1E8F356D00D7480E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3213C51E8F356E00D7480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF3213C61E8F356E00D7480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3213C81E8F356E00D7480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF3213C91E8F356E00D7480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF3213CB1E8F356E00D7480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IASCamera.app/IASCamera";
+			};
+			name = Debug;
+		};
+		EF3213CC1E8F356E00D7480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IASCamera.app/IASCamera";
+			};
+			name = Release;
+		};
+		EF3213CE1E8F356E00D7480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IASCamera;
+			};
+			name = Debug;
+		};
+		EF3213CF1E8F356E00D7480E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = AJ68K6K9EW;
+				INFOPLIST_FILE = IASCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IASCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3213921E8F356D00D7480E /* Build configuration list for PBXProject "IASCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3213C51E8F356E00D7480E /* Debug */,
+				EF3213C61E8F356E00D7480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3213C71E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3213C81E8F356E00D7480E /* Debug */,
+				EF3213C91E8F356E00D7480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3213CA1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3213CB1E8F356E00D7480E /* Debug */,
+				EF3213CC1E8F356E00D7480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF3213CD1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3213CE1E8F356E00D7480E /* Debug */,
+				EF3213CF1E8F356E00D7480E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF3213A61E8F356D00D7480E /* IASCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF3213A71E8F356D00D7480E /* IASCamera.xcdatamodel */,
+			);
+			currentVersion = EF3213A71E8F356D00D7480E /* IASCamera.xcdatamodel */;
+			path = IASCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF32138F1E8F356D00D7480E /* Project object */;
+}
