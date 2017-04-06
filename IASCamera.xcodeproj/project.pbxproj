@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		EF32139C1E8F356D00D7480E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32139B1E8F356D00D7480E /* main.m */; };
 		EF32139F1E8F356D00D7480E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF32139E1E8F356D00D7480E /* AppDelegate.m */; };
-		EF3213A21E8F356D00D7480E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213A11E8F356D00D7480E /* ViewController.m */; };
+		EF3213A21E8F356D00D7480E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF3213A11E8F356D00D7480E /* ViewController.mm */; };
 		EF3213A51E8F356D00D7480E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3213A31E8F356D00D7480E /* Main.storyboard */; };
 		EF3213A81E8F356D00D7480E /* IASCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF3213A61E8F356D00D7480E /* IASCamera.xcdatamodeld */; };
 		EF3213AA1E8F356D00D7480E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3213A91E8F356D00D7480E /* Assets.xcassets */; };
 		EF3213AD1E8F356D00D7480E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3213AB1E8F356D00D7480E /* LaunchScreen.storyboard */; };
 		EF3213B81E8F356D00D7480E /* IASCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213B71E8F356D00D7480E /* IASCameraTests.m */; };
 		EF3213C31E8F356D00D7480E /* IASCameraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213C21E8F356D00D7480E /* IASCameraUITests.m */; };
+		EF3213DC1E8F9ABE00D7480E /* TypePickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213DB1E8F9ABE00D7480E /* TypePickerItem.m */; };
+		EF3213DF1E8F9BB200D7480E /* TypePickerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3213DE1E8F9BB200D7480E /* TypePickerScrollView.m */; };
+		EF37A5791E947F8F00E836F2 /* TypeMainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37A5781E947F8F00E836F2 /* TypeMainItem.m */; };
+		EF37A57C1E947FA600E836F2 /* TypeMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF37A57B1E947FA600E836F2 /* TypeMainModel.m */; };
+		EF37A57E1E94D59900E836F2 /* DataList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF37A57D1E94D59900E836F2 /* DataList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,7 @@
 		EF32139D1E8F356D00D7480E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF32139E1E8F356D00D7480E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EF3213A01E8F356D00D7480E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF3213A11E8F356D00D7480E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF3213A11E8F356D00D7480E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		EF3213A41E8F356D00D7480E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF3213A71E8F356D00D7480E /* IASCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IASCamera.xcdatamodel; sourceTree = "<group>"; };
 		EF3213A91E8F356D00D7480E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +58,15 @@
 		EF3213BE1E8F356D00D7480E /* IASCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IASCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3213C21E8F356D00D7480E /* IASCameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IASCameraUITests.m; sourceTree = "<group>"; };
 		EF3213C41E8F356E00D7480E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3213DA1E8F9ABE00D7480E /* TypePickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypePickerItem.h; sourceTree = "<group>"; };
+		EF3213DB1E8F9ABE00D7480E /* TypePickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypePickerItem.m; sourceTree = "<group>"; };
+		EF3213DD1E8F9BB200D7480E /* TypePickerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypePickerScrollView.h; sourceTree = "<group>"; };
+		EF3213DE1E8F9BB200D7480E /* TypePickerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypePickerScrollView.m; sourceTree = "<group>"; };
+		EF37A5771E947F8F00E836F2 /* TypeMainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMainItem.h; sourceTree = "<group>"; };
+		EF37A5781E947F8F00E836F2 /* TypeMainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeMainItem.m; sourceTree = "<group>"; };
+		EF37A57A1E947FA600E836F2 /* TypeMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMainModel.h; sourceTree = "<group>"; };
+		EF37A57B1E947FA600E836F2 /* TypeMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeMainModel.m; sourceTree = "<group>"; };
+		EF37A57D1E94D59900E836F2 /* DataList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +117,22 @@
 		EF3213991E8F356D00D7480E /* IASCamera */ = {
 			isa = PBXGroup;
 			children = (
+				EF3213D01E8F983800D7480E /* TYPickerScrollView */,
 				EF32139D1E8F356D00D7480E /* AppDelegate.h */,
 				EF32139E1E8F356D00D7480E /* AppDelegate.m */,
 				EF3213A01E8F356D00D7480E /* ViewController.h */,
-				EF3213A11E8F356D00D7480E /* ViewController.m */,
+				EF3213A11E8F356D00D7480E /* ViewController.mm */,
+				EF37A5771E947F8F00E836F2 /* TypeMainItem.h */,
+				EF37A5781E947F8F00E836F2 /* TypeMainItem.m */,
+				EF37A57A1E947FA600E836F2 /* TypeMainModel.h */,
+				EF37A57B1E947FA600E836F2 /* TypeMainModel.m */,
 				EF3213A31E8F356D00D7480E /* Main.storyboard */,
 				EF3213A91E8F356D00D7480E /* Assets.xcassets */,
 				EF3213AB1E8F356D00D7480E /* LaunchScreen.storyboard */,
 				EF3213AE1E8F356D00D7480E /* Info.plist */,
 				EF3213A61E8F356D00D7480E /* IASCamera.xcdatamodeld */,
 				EF32139A1E8F356D00D7480E /* Supporting Files */,
+				EF37A57D1E94D59900E836F2 /* DataList.plist */,
 			);
 			path = IASCamera;
 			sourceTree = "<group>";
@@ -141,6 +161,17 @@
 				EF3213C41E8F356E00D7480E /* Info.plist */,
 			);
 			path = IASCameraUITests;
+			sourceTree = "<group>";
+		};
+		EF3213D01E8F983800D7480E /* TYPickerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EF3213DD1E8F9BB200D7480E /* TypePickerScrollView.h */,
+				EF3213DE1E8F9BB200D7480E /* TypePickerScrollView.m */,
+				EF3213DA1E8F9ABE00D7480E /* TypePickerItem.h */,
+				EF3213DB1E8F9ABE00D7480E /* TypePickerItem.m */,
+			);
+			name = TYPickerScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +285,7 @@
 			files = (
 				EF3213AD1E8F356D00D7480E /* LaunchScreen.storyboard in Resources */,
 				EF3213AA1E8F356D00D7480E /* Assets.xcassets in Resources */,
+				EF37A57E1E94D59900E836F2 /* DataList.plist in Resources */,
 				EF3213A51E8F356D00D7480E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3213A81E8F356D00D7480E /* IASCamera.xcdatamodeld in Sources */,
-				EF3213A21E8F356D00D7480E /* ViewController.m in Sources */,
+				EF3213A21E8F356D00D7480E /* ViewController.mm in Sources */,
+				EF37A57C1E947FA600E836F2 /* TypeMainModel.m in Sources */,
+				EF3213DC1E8F9ABE00D7480E /* TypePickerItem.m in Sources */,
+				EF37A5791E947F8F00E836F2 /* TypeMainItem.m in Sources */,
 				EF32139F1E8F356D00D7480E /* AppDelegate.m in Sources */,
 				EF32139C1E8F356D00D7480E /* main.m in Sources */,
+				EF3213DF1E8F9BB200D7480E /* TypePickerScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AJ68K6K9EW;
 				INFOPLIST_FILE = IASCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AJ68K6K9EW;
 				INFOPLIST_FILE = IASCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ias.wyf.No.IASCamera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +556,7 @@
 				EF3213C91E8F356E00D7480E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3213CA1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +565,7 @@
 				EF3213CC1E8F356E00D7480E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3213CD1E8F356E00D7480E /* Build configuration list for PBXNativeTarget "IASCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +574,7 @@
 				EF3213CF1E8F356E00D7480E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
