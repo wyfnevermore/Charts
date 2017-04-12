@@ -14,9 +14,11 @@
 @property (strong,nonatomic)NSString* str;
 @property (weak, nonatomic) IBOutlet UIButton *startBtn;
 @property (weak, nonatomic) IBOutlet UIButton *connect;
+@property (weak, nonatomic) IBOutlet UIButton *setting;
 
 - (IBAction)startBtn:(id)sender;
 - (IBAction)connect:(id)sender;
+- (IBAction)setting:(id)sender;
 
 - (void)reloadimgDelegate;
 

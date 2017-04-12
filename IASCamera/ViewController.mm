@@ -36,6 +36,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpUI];
+    //按钮
+    
+    _startBtn.frame = CGRectMake(SCREEN_WIDTH*172/414, SCREEN_HEIGHT*646/736, SCREEN_HEIGHT*70/736, SCREEN_HEIGHT*70/736);
+    _connect.frame = CGRectMake(SCREEN_WIDTH*52/414, SCREEN_HEIGHT*660/736, SCREEN_HEIGHT*40/736, SCREEN_HEIGHT*40/736);
+    _setting.frame = CGRectMake(SCREEN_WIDTH*330/414, SCREEN_HEIGHT*667/736, SCREEN_HEIGHT*30/736, SCREEN_HEIGHT*30/736);
+    
     // Do any additional setup after loading the view, typically from a nib.
 
 }
@@ -48,12 +54,10 @@
 #pragma mark - UI
 - (void)setUpUI
 {
-    //按钮
-    _startBtn.frame = CGRectMake(SCREEN_WIDTH*172/414, SCREEN_HEIGHT*646/736, SCREEN_HEIGHT*70/736, SCREEN_HEIGHT*70/736);
-    _connect.frame = CGRectMake(SCREEN_WIDTH*320/414, SCREEN_HEIGHT*660/736, SCREEN_HEIGHT*50/736, SCREEN_HEIGHT*50/736);
+
     // 1.数据源(大)
     mainData = [NSMutableArray array];
-    NSArray *mainTitleArray = @[@"大类一",@"大类二",@"大类三",@"大类四",@"大类五",@"大类六",@"大类七"];
+    NSArray *mainTitleArray = @[@"食品",@"母婴",@"体脂",@"保健品",@"大类五",@"大类六",@"大类七"];
     for (int i = 0; i < mainTitleArray.count; i++) {
         TypeMainModel *mainModel = [[TypeMainModel alloc] init];
         mainModel.dicountTitle = [mainTitleArray objectAtIndex:i];
@@ -63,7 +67,7 @@
     
     //数据源(小)
     data = [NSMutableArray array];
-    NSArray *titleArray = @[@"药品",@"奶粉",@"木材",@"乳胶",@"爬爬垫",@"珍珠粉",@"奶嘴",@"保鲜膜"];
+    NSArray *titleArray = @[@"大豆",@"奶粉",@"苹果",@"果冻",@"巧克力",@"珍珠粉",@"奶嘴",@"保鲜膜"];
     for (int i = 0; i < titleArray.count; i++) {
         TypeMainModel *model = [[TypeMainModel alloc] init];
         model.dicountTitle = [titleArray objectAtIndex:i];
@@ -99,6 +103,7 @@
     _pickerScollView.delegate = self;
     [self.view addSubview:_pickerScollView];
     
+    
     //初始化(img)
     _imgPickerScollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT*68/736, SCREEN_WIDTH, SCREEN_HEIGHT*529/736)];
     _imgPickerScollView.backgroundColor = [UIColor yellowColor];
@@ -112,10 +117,13 @@
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(i*(SCREEN_WIDTH), 0, SCREEN_WIDTH, SCREEN_HEIGHT*529/736)];
         view.backgroundColor = [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1];
         [_imgPickerScollView addSubview:view];
+
     }
     _imgPickerScollView.contentSize = CGSizeMake(SCREEN_WIDTH * 8,0);
     _imgPickerScollView.clipsToBounds = NO;
+    //[self.view sendSubviewToBack:_imgPickerScollView];
     
+     
     // 3.刷新数据
     [_mainPickerScollView reloadData];
     [_pickerScollView reloadData];
@@ -132,7 +140,6 @@
         _pickerScollView.scrollView.delegate = nil;
         _pickerScollView.scrollView.contentOffset = CGPointMake(scrollView.contentOffset.x * littleX,0);
         [_pickerScollView reloadDelegate];
-
     }
     else
     {
@@ -235,5 +242,8 @@
     [alertController addAction:cancelAction];
     [alertController addAction:okAction];
     [self presentViewController:alertController animated:YES completion:nil];
+}
+
+- (IBAction)setting:(id)sender {
 }
 @end

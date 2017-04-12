@@ -37,24 +37,42 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA3-gj-G7X">
-                                <rect key="frame" x="331" y="642" width="50" height="50"/>
+                                <rect key="frame" x="38" y="642" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="connect"/>
                                 <connections>
                                     <action selector="connect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGu-D4-jxt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwY-bi-WdO">
+                                <rect key="frame" x="340" y="647" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="resi"/>
+                                <connections>
+                                    <action selector="setting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WWn-eB-KCf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dadou" translatesAutoresizingMaskIntoConstraints="NO" id="clT-rI-QN3">
+                                <rect key="frame" x="0.0" y="68" width="414" height="528"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="528" id="tdK-WL-FoU"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="clT-rI-QN3" secondAttribute="trailing" id="1UH-xv-ghK"/>
                             <constraint firstAttribute="trailing" secondItem="wTb-1k-CGC" secondAttribute="trailing" id="3tK-rU-Z7j"/>
                             <constraint firstItem="wTb-1k-CGC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="53h-4G-gUd"/>
+                            <constraint firstItem="wTb-1k-CGC" firstAttribute="top" secondItem="clT-rI-QN3" secondAttribute="bottom" constant="-596" id="Hqv-gS-DKw"/>
                             <constraint firstItem="wTb-1k-CGC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NGz-Sv-aNq"/>
+                            <constraint firstItem="clT-rI-QN3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="O8e-Tm-rA7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wTb-1k-CGC" secondAttribute="bottom" id="zZ6-LU-C2T"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="connect" destination="cA3-gj-G7X" id="YmQ-DM-oGw"/>
+                        <outlet property="setting" destination="UwY-bi-WdO" id="Mab-Zd-Pf8"/>
                         <outlet property="startBtn" destination="eLR-KG-kt8" id="6uX-ZK-DCF"/>
                     </connections>
                 </viewController>
@@ -67,5 +85,7 @@
         <image name="bg2" width="1080" height="1920"/>
         <image name="btn" width="130" height="130"/>
         <image name="connect" width="397" height="398"/>
+        <image name="dadou" width="423" height="600"/>
+        <image name="resi" width="128" height="128"/>
     </resources>
 </document>
